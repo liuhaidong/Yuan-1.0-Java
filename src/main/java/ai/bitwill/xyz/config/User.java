@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @Data
 public class User {
-    @Value("${username}")
+    @Value("${yuan_username}")
     private String userName;
     @Value("${mobile}")
     private String mobile;
